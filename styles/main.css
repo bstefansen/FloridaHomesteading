@@ -111,6 +111,10 @@ section {
     padding-bottom: 50px;
     clear: right;
 }
+section article {
+    border-bottom: solid 3px black;
+    padding-bottom: 1em
+}
 section h2 {
     font-size: 130%;
     padding-bottom: .5em;
@@ -125,10 +129,12 @@ aside {
     padding-right: 400px;
 }
 aside h2 {
-    font-size: 130%
+    font-size: 130%;
+    padding-top: .5em
 }
 aside ul {
-    padding-left: 1em
+    padding-left: 1em;
+    padding-bottom: 7.5em;
 }
 aside li {
     padding-top: .5em;
