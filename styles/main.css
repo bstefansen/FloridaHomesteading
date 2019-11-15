@@ -1,0 +1,225 @@
+/* the styles for the elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 98%;
+    max-width: 960px;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 3px black;
+    background-color: #fbeec1;
+    height: 100%;
+}
+html {
+    background-color: white;
+}
+
+/* the styles for the header */
+header {
+    border-bottom: solid 3px black;
+    padding-top: 1.5em;
+    padding-bottom: 6em;
+    padding-left: 1em;
+    background-color: #659dbd
+}
+header h2 {
+    font-size:170%;
+    color: white;
+    float: left;
+    padding-top: 2.75%;
+    font-size: 200%;
+    font-weight: bold;
+}
+header img {
+    float: left;
+    padding-left: 2.75%;
+    padding-right: 5.75%;
+    
+}
+
+/* the styles for the navigation menu */
+.slicknav_menu {
+    display: none;
+}
+#moblie_menu {
+    display: block;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: relative;
+    width: 100%;
+}
+nav ul li {
+    float: left;
+    position: relative;
+    width: 20%;
+}
+nav ul li a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-decoration: none;
+    background-color: #bc9161;
+    color: white;
+    font-weight: bold;
+    position: relative;
+}
+.current {
+    color: yellow;
+}
+.dropdown {
+    display: inline-block;
+    float: none;
+    width: 100%;
+}
+.dropdown-content {
+    display: none;
+    float: none;
+    position: absolute;
+    width: 100%;
+}
+.dropdown-content ul {
+    width: 100%;
+}
+.dropdown-content ul li{
+    width: 100%;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    float: none;
+}
+main {
+    padding-top: 4em;
+}
+/* the styles for the section */
+section {
+    width: 65.623%;
+    float: right;
+    padding-left: .5%;
+    padding-right: 4.5%;
+    padding-bottom: 50px;
+    clear: right;
+}
+section h2 {
+    font-size: 130%;
+    padding-bottom: .5em;
+    padding-top: .5em;
+}
+
+/* the styles for the aside */
+aside {
+    width: 26.875%;
+    padding-left: 1.5%;
+    padding-bottom: 20px;
+    padding-right: 400px;
+}
+aside h2 {
+    font-size: 130%
+}
+aside ul {
+    padding-left: 1em
+}
+aside li {
+    padding-top: .5em;
+}
+aside a {
+    text-decoration: none;
+}
+/* the styles for the footer */
+footer p {
+    text-align: center;
+    background-color: #7d8c41;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    clear: both;
+}
+footer {
+    padding-bottom: 
+}
+/* phone landscape layout */
+@media only screen and (max-width: 767px) {
+    header img {
+        float: none;
+    }
+    header h2 {
+        float: none;
+    }
+    header {
+        text-align: center;
+        padding-bottom: 2em
+    }
+    section {
+        float: none;
+        width: 95%;
+        padding-bottom: 4em;
+        padding-left: .75em
+    }
+    section img {
+        max-width: 30%
+    }
+    aside {
+        float: none;
+        padding-right: 2.5%;
+        width: 95%;
+    }
+    .speakers {
+        column-count: 2;
+    }
+    nav ul li a{
+        display: none;
+    }
+    .slicknav_menu {
+        display: block;
+        float: none;
+        background-color: #bc9161 !important;
+    }
+    .slicknav_nav a {
+        display: inline-block;
+        float: right;
+    }
+    .slicknav_nav li {
+        text-align:
+    }
+}
+/* phone portrait layout */
+@media only screen and (max-width: 479px) {
+    body {
+        font-size: 90%;
+    }
+    nav ul li a{
+        display: none;
+    }
+    .slicknav_menu {
+        display: block;
+    }
+    #mobile_menu {
+        display: block;
+    }
+    #mobile_menu {
+        background-color: #800000
+    }
+    .slicknav_menu {
+        display: block;
+        float: none;
+        background-color: #bc9161 !important;
+    }
+    .slicknav_nav a {
+        display: inline-block;
+        float: right;
+    }
+    .slicknav_nav li {
+
+    }
+}
