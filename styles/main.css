@@ -122,6 +122,7 @@ section h2 {
 }
 section figure {
     float: right;
+    border: solid 5px black;
 }
 /* the styles for the aside */
 aside {
@@ -229,4 +230,5 @@ footer p {
     .slicknav_nav li {
 
     }
+    
 }
