@@ -70,7 +70,7 @@ nav ul li a {
     padding-top: 1em;
     padding-bottom: 1em;
     text-decoration: none;
-    background-color: #bc9161;
+    background-color: #7d8c41;
     color: white;
     font-weight: bold;
     position: relative;
@@ -120,7 +120,9 @@ section h2 {
     padding-bottom: .5em;
     padding-top: .5em;
 }
-
+section figure {
+    float: right;
+}
 /* the styles for the aside */
 aside {
     width: 26.875%;
@@ -134,7 +136,7 @@ aside h2 {
 }
 aside ul {
     padding-left: 1em;
-    padding-bottom: 7.5em;
+    padding-bottom: 3em;
 }
 aside li {
     padding-top: .5em;
@@ -142,18 +144,17 @@ aside li {
 aside a {
     text-decoration: none;
 }
+
 /* the styles for the footer */
 footer p {
     text-align: center;
-    background-color: #7d8c41;
+    background-color: #bc9161;
     color: white;
     padding-top: 1em;
     padding-bottom: 1em;
     clear: both;
 }
-footer {
-    padding-bottom: 
-}
+
 /* phone landscape layout */
 @media only screen and (max-width: 767px) {
     header img {
