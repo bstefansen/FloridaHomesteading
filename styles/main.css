@@ -123,6 +123,7 @@ section h2 {
 section figure {
     float: right;
     border: solid 5px black;
+    border-radius: 5px;
 }
 /* the styles for the aside */
 aside {
