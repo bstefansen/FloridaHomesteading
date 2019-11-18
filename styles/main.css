@@ -162,14 +162,14 @@ nav ul li a {
     background-position: bottom;
 }
 nav ul li a:hover {
-    background-image: url(/images/grass.jpeg);
+    background-image: "/images/grass.jpeg";
     background-position: center;
 }
 .current {
     color: yellow;
     text-shadow: 3px 3px 6px black;
     font-weight: bold;
-    background-image: url(/images/grass.jpeg);
+    background-image: "/images/grass.jpeg";
     background-position: center;
 }
 .dropdown {
