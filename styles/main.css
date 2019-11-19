@@ -247,7 +247,7 @@ aside li {
 aside a {
     text-decoration: none;
 }
-iframe {
+.map {
     border-radius: 20px;
     position: absolute;
     bottom: 105px;
