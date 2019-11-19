@@ -17,6 +17,7 @@ body {
     background-color: #fbeec1;
     height: 100%;
     position: relative;
+    box-shadow: 1px 1px 15px 9px black;
 }
 html {
     background-color: white;
@@ -98,7 +99,7 @@ header img {
         opacity: 0;
     }
     100% {
-        left: 100%;
+        left: 90%;
         opacity: 0;
     }
 }
@@ -214,6 +215,11 @@ section h2 {
     padding-bottom: .5em;
     padding-top: .5em;
 }
+section h2:hover {
+    color: rgb(0, 50, 255);
+    font-weight: bold;
+    text-shadow: 3px 3px 6px white;
+}
 section figure {
     float: right;
     border: solid 5px black;
@@ -241,7 +247,12 @@ aside li {
 aside a {
     text-decoration: none;
 }
-
+iframe {
+    border-radius: 20px;
+    position: absolute;
+    bottom: 105px;
+    box-shadow: 1px 1px 10px 5px black;
+}
 /* the styles for the footer */
 footer p {
     text-align: center;
