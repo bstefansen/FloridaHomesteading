@@ -158,18 +158,18 @@ nav ul li a {
     text-shadow: 3px 3px 6px black;
     font-weight: bold;
     position: relative;
-    background-image: url(/images/grass.jpeg);
+    background-image: url(../images/grass.jpeg);
     background-position: bottom;
 }
 nav ul li a:hover {
-    background-image: "/images/grass.jpeg";
+    background-image: url(../images/grass.jpeg);
     background-position: center;
 }
 .current {
     color: yellow;
     text-shadow: 3px 3px 6px black;
     font-weight: bold;
-    background-image: "/images/grass.jpeg";
+    background-image: url(../images/grass.jpeg);
     background-position: center;
 }
 .dropdown {
@@ -252,7 +252,7 @@ footer p {
     padding-top: 1em;
     padding-bottom: 1em;
     clear: both;
-    background-image: url(/images/soil2.jpeg);
+    background-image: url(../images/soil2.jpeg);
     background-position: bottom;
 }
 
