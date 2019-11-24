@@ -249,7 +249,9 @@ aside a {
 }
 iframe {
   border-radius: 20px;
-
+  position: absolute;
+  bottom: 105px;
+  box-shadow: 1px 1px 10px 5px black;
 }
 .map {
     border-radius: 20px;
