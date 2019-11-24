@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <link rel="shortcut icon" href="images/faviconbarn.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/main.css">
+	<meta name="viewport" content="width=device-width, initial-scale-1">
+	<link rel="stylesheet" href="styles/slicknav.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="js/jquery.slicknav.min.js"></script>
+	<script type="text/javascript">
+        $(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+        });
+    </script>
+    <title>Florida Homesteading</title>
+</head>
+<header>
+   <div class="clouds" id="cloud1"><img src="images/cloud3.webp" height="80px"></div>
+    <div class="clouds" id="cloud2"><img src="images/cloud3.webp" height="80px"></div>
+    <div class="clouds" id="cloud3"><img src="images/cloud3.webp" height="80px"></div>
+    <div class="clouds" id="cloud4"><img src="images/cloud3.webp" height="80px"></div>
+    <img src="images//Farm-595b40b75ba036ed117d7d67.svg" alt="Barnhouse logo" height="80">
+    <h2>Florida Homesteading</h2>
+</header>
+<body>
+    <nav id="mobile_menu"></nav>
+    <nav id="nav_menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a class='current' href="compost.html">Composting</a></li>
+            <li><a href="rwh.html">Rain Harvesting</a></li>
+            <li><a href="gardening.html">Gardening</a></li>
+            <li><div class="dropdown"><span><a href="bees.html">Beekeeping</a></span>
+                   <div class="dropdown-content">
+                        <ul>
+                            <li><a href="bees.html">History</a></li>
+                            <li><a href="started.html">Getting Started</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+	    </ul>
+	</nav>
+    <main>
+       <section>
+           <h2>What is Composting?</h2>
+           <p>Composting is simply the act of organic matter breaking down due to microorganisms. All you need to get started is space, air, water, organic matter, and patience.
+           </p>
+           <figure><a href="https://www.hobbyfarms.com/stop-the-smell-5-reasons-your-compost-stinks/"><img src="images/compost_istock.jpg" height="210px"></a></figure>
+           <h2>Why Compost?</h2>
+           <p>A study conducted by the EPA in 2014 found that Americans throw away more than 38 million tons of food every year. Not only is that a waste of food, it is a waste of money and dense nutrients that could be recycled back into your property. By composting your organic waste, you give it a new life as fertilizer for your crops. Doing so reduces waste, emmissions, and operation costs for your property and the planet.</p>
+           <figure><a href="https://www.fix.com/blog/how-to-start-a-compost-pile/"><img src="images/carbon-nitrogen-sources.png" height="400px"></a></figure>
+           <h2>Getting Started</h2>
+           <p>As mentioned above, all you need to get started is space, air, organic matter, and patience. Composting is carried out through microbial decomposers. Like most living things, they need water, food, and air. For food, microbes need a ratio of 2:1 brown matter(carbon) and green matter(nitrogen). Brown matter can be dead leaves, wood ash, cardboard, etc., and green matter can be fruits, eggshells, vegetables, etc. Once you have chosen a place for your pile, turn the pile once a week and add water to keep it moist. After several months, the pile will be ready for your garden when it looks like soil. The University of Florida also has a great <a href="https://sfyl.ifas.ufl.edu/sarasota/natural-resources/waste-reduction/composting/">resource</a> on composting for beginners.</p>
+       </section>
+       <aside>
+            <h2>Additional Resources</h2>
+                <ul>
+                   <li><a href="https://www.fix.com/blog/how-to-start-a-compost-pile/">Guide to Composting</a></li>
+                    <li><a href="https://sfyl.ifas.ufl.edu/sarasota/natural-resources/waste-reduction/composting/">UF Composting</a></li>
+                    <li><a href="https://sfyl.ifas.ufl.edu/media/sfylifasufledu/st-johns/pdf/Hort-2---Rain-Barrels.pdf">Rain Barrels</a></li>
+                    <li><a href="https://edis.ifas.ufl.edu/vh021">Planting Guide</a></li>
+                    <li><a href="http://entnemdept.ufl.edu/honey-bee/">UF Bee Lab</a></li>
+                    <li><a href="https://blogs.ifas.ufl.edu/entnemdept/honey-bee-lab/" style="text-decoration: none">UF Bee Blog</a></li>
+                </ul>
+                <iframe
+                 width="225"
+                 height="260"
+                 frameborder="10" style="border:10"
+                 src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAEMjkGixTS-tbbbs3r9GD34jZMGkwRABM&q=Bee Lab&zoom=17
+                &maptype=satellite" allowfullscreen>
+            </iframe>
+       </aside>
+    </main>
+    <footer>
+        <p>&copy; 2019, Blake Stefansen, Santa Fe College</p>
+    </footer>
+</body>
+</html>
