@@ -1,0 +1,350 @@
+/* the styles for the elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 98%;
+    max-width: 960px;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 3px black;
+    background-color: #fbeec1;
+    height: 100%;
+    position: relative;
+    box-shadow: 1px 1px 15px 9px black;
+}
+html {
+    background-color: white;
+}
+
+/* the styles for the header */
+header {
+    border-bottom: solid 3px black;
+    padding-top: 1.5em;
+    padding-bottom: 6em;
+    padding-left: 1em;
+    background-image: url(../images/sky.jpeg);
+    background-position: right;
+}
+header h2 {
+    position: relative;
+    font-size:170%;
+    color: rgb(250, 255, 100);
+    float: left;
+    padding-top: 2.75%;
+    font-size: 200%;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px black;
+}
+header img {
+    position: relative;
+    float: left;
+    padding-left: 2.75%;
+    padding-right: 5.75%;
+}
+.clouds {
+    z-index: -;
+    position: absolute;
+    margin: auto;
+    height: 30px;
+    width: 30px;
+    animation-iteration-count: infinite;
+}
+#cloud1 {
+    animation-timing-function: linear;
+    animation-name: right;
+    animation-duration: 32s;
+    top: -10px;
+}
+#cloud2 {
+    animation-timing-function: linear;
+    animation-name: left;
+    animation-duration: 30s;
+    top: 10px
+}
+#cloud3 {
+    animation-timing-function: linear;
+    animation-name: left;
+    animation-duration: 40s;
+    top: 50px
+}
+#cloud4 {
+    animation-timing-function: linear;
+    animation-name: right;
+    animation-duration: 48s;
+    top: 35px;
+}
+
+@keyframes right {
+    0% {
+        left: 0%;
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    50% {
+        left: 60%;
+    }
+    75% {
+        opacity: 1;
+    }
+    85% {
+        opacity: 0;
+    }
+    100% {
+        left: 90%;
+        opacity: 0;
+    }
+}
+@keyframes left {
+    0% {
+        right: 0%;
+        opacity: 0;
+    }
+    7% {
+        opacity: 0;
+    }
+    15% {
+        opacity: 1;
+    }
+    50% {
+        right: 60%;
+    }
+    85% {
+        opacity: 1;
+    }
+    95% {
+        opacity: 0;
+    }
+    100% {
+        right: 100%;
+        opacity: 0%;
+    }
+}
+/* the styles for the navigation menu */
+.slicknav_menu {
+    display: none;
+}
+#moblie_menu {
+    display: block;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: relative;
+    width: 100%;
+}
+nav ul li {
+    float: left;
+    position: relative;
+    width: 20%;
+}
+nav ul li a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-decoration: none;
+    background-color: #7d8c41;
+    color: white;
+    text-shadow: 3px 3px 6px black;
+    font-weight: bold;
+    position: relative;
+    background-image: url(../images/grass.jpeg);
+    background-position: bottom;
+}
+nav ul li a:hover {
+    background-image: url(../images/grass.jpeg);
+    background-position: center;
+}
+.current {
+    color: yellow;
+    text-shadow: 3px 3px 6px black;
+    font-weight: bold;
+    background-image: url(../images/grass.jpeg);
+    background-position: center;
+}
+.dropdown {
+    display: inline-block;
+    float: none;
+    width: 100%;
+}
+.dropdown-content {
+    display: none;
+    float: none;
+    position: absolute;
+    width: 100%;
+}
+.dropdown-content ul {
+    width: 100%;
+}
+.dropdown-content ul li{
+    width: 100%;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    float: none;
+}
+main {
+    padding-top: 4em;
+}
+/* the styles for the section */
+section {
+    width: 65.623%;
+    float: right;
+    padding-left: .5%;
+    padding-right: 4.5%;
+    padding-bottom: 50px;
+    clear: right;
+}
+section article {
+    border-bottom: solid 3px black;
+    padding-bottom: 1em
+}
+section h2 {
+    font-size: 130%;
+    padding-bottom: .5em;
+    padding-top: .5em;
+}
+section h2:hover {
+    color: rgb(0, 50, 255);
+    font-weight: bold;
+    text-shadow: 3px 3px 6px white;
+}
+section figure {
+    float: right;
+    border: solid 5px black;
+    border-radius: 5px;
+}
+/* the styles for the aside */
+aside {
+    width: 26.875%;
+    padding-left: 1.5%;
+    padding-bottom: 20px;
+    padding-right: 400px;
+}
+aside h2 {
+    font-size: 130%;
+    padding-top: .5em
+}
+aside ul {
+    padding-left: 1em;
+    padding-bottom: 3em;
+}
+aside li {
+    padding-top: .5em;
+
+}
+aside a {
+    text-decoration: none;
+}
+iframe {
+  border-radius: 20px;
+
+}
+.map {
+    border-radius: 20px;
+    position: absolute;
+    bottom: 105px;
+    box-shadow: 1px 1px 10px 5px black;
+}
+/* the styles for the footer */
+footer p {
+    text-align: center;
+    background-color: #bc9161;
+    font-weight: bold;
+    color: rgb(250, 255, 100);
+    text-shadow: 3px 3px 6px black;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    clear: both;
+    background-image: url(../images/soil2.jpeg);
+    background-position: bottom;
+}
+
+
+/* phone landscape layout */
+@media only screen and (max-width: 767px) {
+    header img {
+        float: none;
+    }
+    header h2 {
+        float: none;
+    }
+    header {
+        text-align: center;
+        padding-bottom: 2em
+    }
+    section {
+        float: none;
+        width: 95%;
+        padding-bottom: 4em;
+        padding-left: .75em
+    }
+    section img {
+        max-width: 30%
+    }
+    aside {
+        float: none;
+        padding-right: 2.5%;
+        width: 95%;
+    }
+    .speakers {
+        column-count: 2;
+    }
+    nav ul li a{
+        display: none;
+    }
+    .slicknav_menu {
+        display: block;
+        float: none;
+        background-color: #bc9161 !important;
+    }
+    .slicknav_nav a {
+        display: inline-block;
+        float: right;
+    }
+    .slicknav_nav li {
+        text-align:
+    }
+}
+/* phone portrait layout */
+@media only screen and (max-width: 479px) {
+    body {
+        font-size: 90%;
+    }
+    nav ul li a{
+        display: none;
+    }
+    .slicknav_menu {
+        display: block;
+    }
+    #mobile_menu {
+        display: block;
+    }
+    #mobile_menu {
+        background-color: #800000
+    }
+    .slicknav_menu {
+        display: block;
+        float: none;
+        background-color: #bc9161 !important;
+    }
+    .slicknav_nav a {
+        display: inline-block;
+        float: right;
+    }
+    .slicknav_nav li {
+
+    }
+
+}
