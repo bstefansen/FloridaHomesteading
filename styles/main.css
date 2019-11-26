@@ -248,16 +248,19 @@ aside a {
     text-decoration: none;
 }
 iframe {
-  border-radius: 20px;
-  position: absolute;
-  bottom: 105px;
-  box-shadow: 1px 1px 10px 5px black;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 5px black;
+    margin-top: 3em;
+    margin-bottom: 1em;
 }
 .map {
     border-radius: 20px;
     position: absolute;
     bottom: 105px;
     box-shadow: 1px 1px 10px 5px black;
+}
+#info {
+  margin-left: .5em;
 }
 /* the styles for the footer */
 footer p {
