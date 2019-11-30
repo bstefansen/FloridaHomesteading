@@ -265,12 +265,14 @@ iframe {
   margin-left: .5em;
 }
 /* the styles for the footer */
+
 footer p {
     text-align: center;
     background-color: #bc9161;
     font-weight: bold;
     color: blue;
-    text-shadow: 3px 3px 6px black;
+    text-shadow: 0px 0px 6px white;
+    background-color: white;
     padding-top: 1em;
     padding-bottom: 1em;
     clear: both;
