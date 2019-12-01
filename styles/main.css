@@ -307,8 +307,7 @@ footer p {
         padding-right: 2.5%;
         width: 95%;
     }
-    .speakers {
-        column-count: 2;
+
     }
     nav ul li a{
         display: none;
@@ -318,17 +317,42 @@ footer p {
         float: none;
         background-color: green !important;
 
+
     }
     .slicknav_nav a {
-        display: inline;
-        left: 0px;
         background-image: none;
         background-color: green;
-        text-align: center;
-        float: left;
+
     }
     .slicknav_nav li {
-        float: left;
+
+    }
+    #mobile_menu {
+      margin: 0;
+      padding: 0;
+
+    }
+    #mobile_menu ul {
+      margin: 0;
+      margin-bottom: 1em;
+      margin-top: 1em;
+    }
+    #mobile_menu li {
+      margin: 0;
+      padding: 0;
+
+    }
+    #mobile_menu a {
+      padding: 0;
+      margin: 0;
+    }
+    aside iframe {
+      display: block;
+      right: 0px;
+      width: 200px;
+      height: 210px;
+      margin-right: 1em;
+
     }
 }
 /* phone portrait layout */
@@ -346,12 +370,11 @@ footer p {
         display: block;
     }
     #mobile_menu {
-        background-color: #800000
+
     }
     .slicknav_menu {
         display: block;
         float: none;
-        background-color: #bc9161 !important;
     }
     .slicknav_nav a {
         display: inline-block;
