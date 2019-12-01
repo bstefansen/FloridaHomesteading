@@ -255,12 +255,6 @@ iframe {
     margin-top: 3em;
     margin-bottom: 1em;
 }
-.map {
-    border-radius: 20px;
-    position: absolute;
-    bottom: 105px;
-    box-shadow: 1px 1px 10px 5px black;
-}
 #info {
   margin-left: .5em;
 }
@@ -283,6 +277,9 @@ footer p {
 
 /* phone landscape layout */
 @media only screen and (max-width: 767px) {
+    main {
+      margin-left: 1em;
+    }
     header img {
         float: none;
     }
@@ -300,14 +297,17 @@ footer p {
         padding-left: .75em
     }
     section img {
-        max-width: 30%
+        max-width: 100%;
+        width: auto;
+        padding-bottom: 0;
+    }
+    section p {
+        padding-bottom: 1em;
     }
     aside {
         float: none;
         padding-right: 2.5%;
         width: 95%;
-    }
-
     }
     nav ul li a{
         display: none;
@@ -351,8 +351,10 @@ footer p {
       right: 0px;
       width: 200px;
       height: 210px;
-      margin-right: 1em;
-
+      margin-right: 4em;
+      float: right;
+      position: absolute;
+      bottom: 100px;
     }
 }
 /* phone portrait layout */
@@ -369,8 +371,8 @@ footer p {
     #mobile_menu {
         display: block;
     }
-    #mobile_menu {
-
+    #mobile_menu a {
+      font-size: 75%;
     }
     .slicknav_menu {
         display: block;
@@ -380,8 +382,32 @@ footer p {
         display: inline-block;
         float: right;
     }
-    .slicknav_nav li {
+    section img {
+      max-width: 100%;
+      height: auto;
+    }
+    aside h2 {
+      font-size: 130%;
+      text-align: center;
+      margin: auto;
+      padding: auto;
+    }
+    aside ul {
+      font-size: 100%;
+      display: table;
+      margin: 0 auto;
+      position: relative;
+      margin-bottom: 6em;
+    }
+    aside ul li {
 
     }
 
+    aside iframe {
+      max-width: 100%;
+      width: auto;
+      margin: 1em;
+      position: relative;
+      margin-bottom: 0;
+    }
 }
