@@ -432,8 +432,10 @@ footer p {
     aside iframe {
       max-width: 100%;
       width: auto;
-      margin: 1em;
+      margin: auto;
       position: relative;
       margin-bottom: 0;
+      padding: auto;
+      float: none;
     }
 }
