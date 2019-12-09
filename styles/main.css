@@ -277,14 +277,12 @@ iframe {
   margin-left: .5em;
 }
 /* the styles for the footer */
-
 footer p {
     text-align: center;
     background-color: #bc9161;
     font-weight: bold;
-    color: blue;
-    text-shadow: 0px 0px 6px white;
-    background-color: white;
+    color: rgb(250, 255, 20);
+    text-shadow: 2px 2px 1px black;
     padding-top: 1em;
     padding-bottom: 1em;
     clear: both;
