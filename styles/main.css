@@ -21,7 +21,6 @@ body {
 html {
     background-color: white;
 }
-
 /* the styles for the header */
 header {
     border-bottom: solid 3px black;
@@ -79,7 +78,6 @@ header img {
     animation-duration: 48s;
     top: 35px;
 }
-
 @keyframes right {
     0% {
         left: 0%;
@@ -262,7 +260,6 @@ aside ul {
 }
 aside li {
     padding-top: .5em;
-
 }
 aside a {
     text-decoration: none;
@@ -289,8 +286,6 @@ footer p {
     background-image: url(../images/soil2.jpeg);
     background-position: bottom;
 }
-
-
 /* phone landscape layout */
 @media only screen and (max-width: 767px) {
     main {
@@ -332,21 +327,16 @@ footer p {
         display: block;
         float: none;
         background-color: green !important;
-
-
     }
     .slicknav_nav a {
         background-image: none;
         background-color: green;
-
     }
     .slicknav_nav li {
-
     }
     #mobile_menu {
       margin: 0;
       padding: 0;
-
     }
     #mobile_menu ul {
       margin: 0;
@@ -356,7 +346,6 @@ footer p {
     #mobile_menu li {
       margin: 0;
       padding: 0;
-
     }
     #mobile_menu a {
       padding: 0;
@@ -406,6 +395,7 @@ footer p {
       padding: auto;
     }
     section figure img {
+      float: none;
       margin-top: 0;
       margin-left: auto;
       margin-right: auto;
@@ -429,10 +419,6 @@ footer p {
       position: relative;
       margin-bottom: 6em;
     }
-    aside ul li {
-
-    }
-
     aside iframe {
       max-width: 100%;
       width: auto;
@@ -441,6 +427,5 @@ footer p {
       margin-bottom: 0;
       padding: auto;
       float: none;
-
     }
 }
