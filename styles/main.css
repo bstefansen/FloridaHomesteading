@@ -19,7 +19,7 @@ body {
     box-shadow: 1px 1px 15px 9px black;
 }
 html {
-    background-color: white;
+    background-color: #264653;
 }
 /* the styles for the header */
 header {
@@ -47,7 +47,7 @@ header img {
     padding-right: 5.75%;
 }
 .clouds {
-    z-index: -;
+    z-index: 0;
     position: absolute;
     margin: auto;
     height: 30px;
@@ -332,8 +332,6 @@ footer p {
         background-image: none;
         background-color: green;
     }
-    .slicknav_nav li {
-    }
     #mobile_menu {
       margin: 0;
       padding: 0;
@@ -385,7 +383,6 @@ footer p {
     }
     .slicknav_nav a {
         display: inline-block;
-        float: right;
     }
     section img {
       max-width: 100%;
